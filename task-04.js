@@ -11,10 +11,10 @@ let sumDroid = prompt('Количество приобретаемых дрои�
 if (sumDroid === null) {
     alert('Отменено пользователем!')
 } else if (sumDroid >= 0) {
-    alert(totalPrice = sumDroid * pricePerDroid)
-}
+    totalPrice = sumDroid * pricePerDroid;
 if (totalPrice > credits) {
     alert('Недостаточно средств на счету!')
 } else {
     alert(`Вы купили ${sumDroid} дроидов, на счету осталось ${credits - totalPrice} кредитов`)
 }
+};
